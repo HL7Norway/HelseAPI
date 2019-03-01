@@ -8,6 +8,7 @@ Still in concept phase, the plan is to make a library of profiles based on ideas
 
 ### Contact information
 
-Espen Stranger Seland (espen.stranger.seland@ehelse.no)
+Espen Stranger Seland, The Norwegian Directorate of eHealth (NDE)<br />
+espen.stranger.seland@ehelse.no
 
 <img align="center" src="/images/HelseAPI-small.png" alt="HelseAPI slide" width="75%" />
