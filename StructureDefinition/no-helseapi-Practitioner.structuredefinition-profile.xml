@@ -477,6 +477,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+      <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -926,6 +927,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+      <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -1375,6 +1377,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+      <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -2013,6 +2016,7 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
         <source value="Extension" />
       </constraint>
+      <mustSupport value="true" />
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -4637,9 +4641,29 @@
       <path value="Practitioner.identifier" />
       <min value="1" />
     </element>
+    <element id="Practitioner.identifier:HPR">
+      <path value="Practitioner.identifier" />
+      <sliceName value="HPR" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.identifier:FNR">
+      <path value="Practitioner.identifier" />
+      <sliceName value="FNR" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Practitioner.identifier:DNR">
+      <path value="Practitioner.identifier" />
+      <sliceName value="DNR" />
+      <mustSupport value="true" />
+    </element>
     <element id="Practitioner.name">
       <path value="Practitioner.name" />
       <min value="1" />
+    </element>
+    <element id="Practitioner.name.extension:middlename">
+      <path value="Practitioner.name.extension" />
+      <sliceName value="middlename" />
+      <mustSupport value="true" />
     </element>
     <element id="Practitioner.name.family">
       <path value="Practitioner.name.family" />

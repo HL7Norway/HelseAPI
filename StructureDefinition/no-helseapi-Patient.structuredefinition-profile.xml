@@ -862,6 +862,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+      <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -1765,6 +1766,7 @@
         <xpath value="@value|f:*|h:div" />
         <source value="Element" />
       </constraint>
+      <mustSupport value="true" />
       <isSummary value="true" />
       <mapping>
         <identity value="rim" />
@@ -3334,6 +3336,7 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
         <source value="Extension" />
       </constraint>
+      <mustSupport value="true" />
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -5312,9 +5315,24 @@
       <path value="Patient.identifier" />
       <min value="1" />
     </element>
+    <element id="Patient.identifier:FNR">
+      <path value="Patient.identifier" />
+      <sliceName value="FNR" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Patient.identifier:DNR">
+      <path value="Patient.identifier" />
+      <sliceName value="DNR" />
+      <mustSupport value="true" />
+    </element>
     <element id="Patient.name">
       <path value="Patient.name" />
       <min value="1" />
+    </element>
+    <element id="Patient.name.extension:middlename">
+      <path value="Patient.name.extension" />
+      <sliceName value="middlename" />
+      <mustSupport value="true" />
     </element>
     <element id="Patient.name.family">
       <path value="Patient.name.family" />
