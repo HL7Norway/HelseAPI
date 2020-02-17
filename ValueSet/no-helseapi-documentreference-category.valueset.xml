@@ -1,0 +1,20 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="no-helseapi-documentreference-category" />
+  <name value="NOHelseAPIDocumentReferenceCategory" />
+  <url value="http://hl7.no/fhir/ValueSet/no-helseapi-documentreference-category" />
+  <title value="NO HelseAPI Document Reference Category" />
+  <status value="active" />
+  <publisher value="Norsk Helsenett"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166" />
+      <code value="NO" />
+      <display value="Norway" />
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.no/fhir/CodeSystem/no-helseapi-documentreference-category" />
+    </include>
+  </compose>
+</ValueSet>
