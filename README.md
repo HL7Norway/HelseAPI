@@ -4,7 +4,7 @@ Developing of standardized open APIs for Norwegian healthcare based on HL7 FHIR.
 
 ## Plan
 
-Still in concept phase, the plan is to make a library of profiles based on ideas from Argonaut/US Core (minimum data set for query) and International Patient Summary (IPS) and [International Patient Access (IPA)](https://build.fhir.org/ig/grahamegrieve/ipa-candidate/).
+Still in concept phase, the plan is to make a library of profiles based on ideas from Argonaut/US Core (minimum data set for query) and International Patient Summary (IPS) and [International Patient Access (IPA)](http://build.fhir.org/ig/HL7/fhir-ipa/).
 
 The profiles will make use of Norwegian [base profiles (no-basis) for R4](https://github.com/HL7Norway/basisprofiler-r4). 
 
