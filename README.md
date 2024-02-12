@@ -12,7 +12,7 @@ The first use of HelseAPI profiles will be [Førerrett-prosjektet (Norwegian)](h
 
 ### Contact information
 
-Espen Stranger Seland, HL7 Norway and The Norwegian Directorate of eHealth (NDE)<br />
-espen.stranger.seland@ehelse.no 
+Espen Stranger Seland, HL7 Norway and Vali<br /> 
+ess @ vali . no
 
 <img align="center" src="/images/HelseAPI-small.png" alt="HelseAPI slide" width="75%" />
